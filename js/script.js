@@ -18,7 +18,11 @@ const links = [
     url: "mailto:palexdigital@gmail.com",
     external: false,
   },
-];
+{
+    title: "Projects Developed by paléX",
+    url: "https://palexdigital.github.io/paleXarchive/#",
+    external: true,
+  },
 
 const linksContainer = document.getElementById("links");
 const yearEl = document.getElementById("year");
