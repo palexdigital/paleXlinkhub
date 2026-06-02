@@ -9,12 +9,12 @@ const links = [
     external: true,
   },
   {
-    title: "WhatsApp Us",
+    title: "Contact Us via WhatsApp",
     url: "https://wa.me/27627654746",
     external: true,
   },
   {
-    title: "Email Us",
+    title: "Send Us an Email",
     url: "mailto:palexdigital@gmail.com",
     external: false,
   },
