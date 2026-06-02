@@ -9,11 +9,6 @@ const links = [
     external: true,
   },
   {
-    title: "Projects Developed by paléX",
-    url: "https://palexdigital.github.io/paleXarchive/#",
-    external: true,
-  },
-  {
     title: "WhatsApp Us",
     url: "https://wa.me/27627654746",
     external: true,
@@ -22,6 +17,11 @@ const links = [
     title: "Email Us",
     url: "mailto:palexdigital@gmail.com",
     external: false,
+  },
+  {
+    title: "Projects Developed by paléX",
+    url: "https://palexdigital.github.io/paleXarchive/#",
+    external: true,
   },
 
 const linksContainer = document.getElementById("links");
