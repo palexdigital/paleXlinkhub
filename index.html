@@ -40,5 +40,22 @@
     </footer>
   </main>
   <script src="js/script.js"></script>
+  <script>
+  // Shooting Stars
+  function createStar() {
+    const star = document.createElement("div");
+    star.className = "star";
+    star.style.left = Math.random() * 100 + "vw";
+    star.style.top = Math.random() * 100 + "vh";
+    star.style.setProperty("--angle", Math.random() * 360 + "deg");
+    star.style.setProperty("--dist", (Math.random() * 300 + 100) + "px");
+    star.style.animationDuration = (Math.random() * 2 + 1) + "s";
+    star.style.animationDelay = (Math.random() * 3) + "s";
+    document.body.appendChild(star);
+    setTimeout(() => star.remove(), 5000);
+  }
+
+  setInterval(createStar, 300);
+</script>
 </body>
 </html>
